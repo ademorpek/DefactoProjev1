@@ -1,0 +1,45 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 474milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 474"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58095"}
+{"logLevel":"info","message":"Listening on port:58095"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.thoughtworks.gauge.maven.StepImplementation.waitBySeconds' and 'com.thoughtworks.gauge.maven.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.thoughtworks.gauge.maven.StepImplementation.hover' and 'com.thoughtworks.gauge.maven.StepImplementation.hover'"}
+{"logLevel":"debug","message":"Found {} elementin üstünde bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.thoughtworks.gauge.maven.StepImplementation.checkElementContainsText' and 'com.thoughtworks.gauge.maven.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.thoughtworks.gauge.maven.StepImplementation.scrollToElement' and 'com.thoughtworks.gauge.maven.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} alanına kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.thoughtworks.gauge.maven.StepImplementation.clickElement' and 'com.thoughtworks.gauge.maven.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} Elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} Elementine tıkla : public void clickElement(String element)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt Key)"}
+{"logLevel":"debug","message":"\t{} alanına kaydır : public void scrollToElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementin üstünde bekle : public void hover(String key)"}
+Ağu 07, 2022 3:53:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 38080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 07, 2022 3:53:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.thoughtworks.gauge.maven.StepImplementation.waitBySeconds"}
+{"logLevel":"debug","message":"Executing '{} elementin üstünde bekle' using 'class com.thoughtworks.gauge.maven.StepImplementation.hover"}
+{"logLevel":"debug","message":"Executing '{} Elementine tıkla' using 'class com.thoughtworks.gauge.maven.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} elementi {} değerini içeriyor mu kontrol et' using 'class com.thoughtworks.gauge.maven.StepImplementation.checkElementContainsText"}
+{"logLevel":"debug","message":"Executing '{} alanına kaydır' using 'class com.thoughtworks.gauge.maven.StepImplementation.scrollToElement"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

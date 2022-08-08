@@ -1,0 +1,48 @@
+Created by ademorpek on 7.08.2022
+
+This is a concept file with following syntax for each concept.
+
+# Anasayfanın yüklendiği kontrol edilir
+*"//img[@alt='DeFacto']" elementini kontrol et
+
+#Anasayfada Kadın Kategorisine Gelinir
+* "a[name='kadın']" elementin üstünde bekle
+
+# Pantolon kategorisine tıklanır
+* "a[title = 'kadın pantolon'" Elementine tıkla
+
+#Ürün Sayısı Kontrol Edilir
+* "div[class = 'catalog__meta--product-count'" elementi "Ürün Sayısı" değerini içeriyor mu kontrol et
+
+# Beden Filtresine Scroll Edilir
+*"//*/text()[normalize-space(.)='S']/parent::*" alanına kaydır2
+
+# S bedene Tıklanır
+* "//*/text()[normalize-space(.)='S']/parent::*" Elementine tıkla1
+
+# Ürün Listesinden Bir Ürün Seçilir
+ "div[class='product-card']" rastgele ürün seç
+*"//div[2]/div/div[2]/div/div/h3/a/span" Elementine tıkla1
+
+# Ürün Detay Sayfasının Açıldığı Kontrol Edilir
+* "//div[3]/div/div/div/div[2]/div[2]" elementini kontrol et
+
+# Rastgele Beden Seçimi Yapılır
+* "div[class='product-size-selector product-card__section product-size-selector--type-1 product-size-selector--size']>div>button" rastgele seç
+
+# Sepete Ekle Butonuna Basılır
+* "//*/text()[normalize-space(.)='Sepete Ekle']/parent::*" Elementine tıkla1
+
+# Sepete Git Butonuna Tıklanır
+*"//a[contains(text(),'Sepete Git')]" Elementine tıkla1
+
+# Sepet Sayfası Kontrol Edilir
+* "//button[@id='summaryCompletedButton']" elementini kontrol et
+
+# Sepetten Ürün Silinir
+* "//a[2]/span[2]" Elementine tıkla1
+* "2" saniye bekle
+* "//div[2]/button[2]" Elementine tıkla1
+
+# Boş Sepet Kontrolü Yapılır
+* "div[class='shopping__empty--title'" elementi "Sepetinizde ürün yok" değerini içeriyor mu kontrol et
